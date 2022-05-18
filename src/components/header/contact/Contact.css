@@ -1,0 +1,21 @@
+.contact--container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.contact--container > p, a{
+    font-size: 8px;
+    color: #47516B;
+    text-decoration: none;
+    padding: 0 0.5em;
+}
+
+.contact--container:hover {
+    cursor: pointer;
+}
+
+.contact--container > p:hover, a:hover{
+    color: #919bb6;
+}

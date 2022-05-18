@@ -1,11 +1,12 @@
 import React from 'react'
-
-console.log('fine')
+import { Header } from './components'
 
 const App = () => {
-  return (
-    <div>Moving App!</div>
-  )
+    return (
+        <>
+        <Header />
+        </>
+    )
 }
 
 export default App
