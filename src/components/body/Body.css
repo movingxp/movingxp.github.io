@@ -1,0 +1,6 @@
+.body--container{
+    display: grid;
+    width: 100%;
+    max-width: 531px; 
+    grid-template-columns: 1.7fr 1fr;
+}

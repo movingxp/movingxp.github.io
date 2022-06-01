@@ -1,1 +1,5 @@
 export {default as Header} from './header/Header'
+export {default as Experience} from './experience/Experience'
+export {default as Background} from './background/Background'
+export {default as Education} from './education/Education'
+export {default as Body} from './body/Body'

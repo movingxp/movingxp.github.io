@@ -1,8 +1,28 @@
 * {
     font-family: 'DM Sans', sans-serif;
     margin: 0;
+    box-sizing: border-box;
 }
 
 body {
     padding: 40px 32px;
 }
+
+/* common classes */
+
+.s6 {
+    font-size: 6px;
+}
+
+.s7 {
+    font-size: 7px;
+}
+
+.s8 {
+    font-size: 8px;
+}
+
+.s9 {
+    font-size: 9px;
+}
+

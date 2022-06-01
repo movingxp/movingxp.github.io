@@ -1,0 +1,13 @@
+.background--container {
+    width: 100%;
+    height: 100vh;
+    background-color: #F7F9FC;
+    padding: 1rem 1rem;
+}
+
+.hline {
+    width: 100%;
+    height: 0.5px;
+    background-color: #E2E6EE;
+    margin: 1rem 0rem;
+}
