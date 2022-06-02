@@ -1,15 +1,14 @@
 import React from 'react'
-import { Education } from '..'
+import { Education, Skills } from '..'
+import { IconUST, IconANU, IconUSTHack, IconHacklympics, IconCityHack } from '../../assets'
 import './Background.css'
-import { ReactComponent as IconUST } from '../../assets/icon-ust.svg'
-import { ReactComponent as IconANU } from '../../assets/icon-anu.svg'
+import Language from './language/Language'
 
 const Background = () => {
   
   const Hline = () => (
     <div className='hline' />
-  )
-
+  );
 
   const MPhil = () => (
     <Education
@@ -43,6 +42,29 @@ const Background = () => {
     />
   );
 
+  const USTHack = () => (
+    <Education
+      startDate={'Apr 2021'}
+      SchoolName={'The Most FAiL Award - hackUST'}
+      SchoolIcon={IconUSTHack}
+    />
+  );
+
+  const Hacklympic = () => (
+    <Education
+      startDate={'Feb 2021'}
+      SchoolName={'Champion - hacklympics'}
+      SchoolIcon={IconHacklympics}
+    />
+  );
+
+  const CityHack = () => (
+    <Education
+      startDate={'Jan 2021'}
+      SchoolName={'1st Runner Up - CityHack 2021'}
+      SchoolIcon={IconCityHack}
+    />
+  );
 
   const Deans = () => (
     <Education
@@ -50,18 +72,27 @@ const Background = () => {
       SchoolName={'Dean’s List - HKUST'}
       SchoolIcon={IconUST}
     />
-  )
+  );
 
 
   return (
-    <div className='background--container'>
-      <p className='s6'>Education</p>
-      <MPhil />
-      <Degree />
-      <Exchange />
-      <Hline />
-      <p className='s6'>{'Honors & Awards'}</p>
-      <Deans />
+    <div>
+      <div className='background--container'>
+        <p className='s6'>Education</p>
+          <MPhil />
+          <Degree />
+          <Exchange />
+        <Hline />
+        <p className='s6'>{'Honors & Awards'}</p>
+          <USTHack />
+          <Hacklympic />
+          <CityHack />
+          <Deans />
+        <Hline />
+        <Skills />
+        <Hline />
+        <Language />
+      </div>
     </div>
   )
 }

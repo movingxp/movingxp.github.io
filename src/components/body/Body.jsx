@@ -1,11 +1,11 @@
 import React from 'react'
-import { Experience, Background } from '..'
+import { Experiences, Background } from '..'
 import './Body.css'
 
 const Body = () => {
   return (
     <div className='body--container'>
-        <Experience />
+        <Experiences />
         <Background />
     </div>
   )

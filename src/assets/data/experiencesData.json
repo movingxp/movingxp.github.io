@@ -1,0 +1,55 @@
+{
+  "data": [
+    {
+      "title": "Work Experience",
+      "items": [
+        {
+          "date": "Sep 2022 - Present",
+          "location": "Taiwan",
+          "position": "Software Dev Engineer",
+          "company": "Amazon",
+          "description": "Omnis minima inventore minus. Aut et incidunt. Aut fugiat culpa illum optio dolorum aut maxime ipsa. Laborum incidunt enim consectetur perspiciatis. Devised a Java daily procedure and setup to compute, update and maintain Alpha101 and Barra Factors in the local database automatically by JDBC and Quandl API.",
+          "icon": "icon-amazon.svg"
+        }
+      ]
+    },
+    {
+      "title": "Internship Experience",
+      "items": [
+        {
+          "date": "Jul - Aug 2019",
+          "location": "Beijing",
+          "position": "Quantitative Analyst Intern",
+          "company": "NM FinTech",
+          "description": "Devised a Java daily procedure and setup to compute, update and maintain Alpha101 and Barra Factors in the local database automatically by JDBC and Quandl API.",
+          "icon": "icon-nm.svg"
+        },
+        {
+          "date": "Oct 2016 - Mar 2017",
+          "location": "Hong Kong",
+          "position": "Data Analyst Intern",
+          "company": "World Class Arena Asia",
+          "description": "Conducted t-tests and chi-squared tests in MS Excel to figure out gender differences in six categories of skills assessed based on the exam results, consisting of 700+ candidates.",
+          "icon": "icon-wcaa.svg"
+        }
+      ]
+    },
+    {
+      "title": "Project Experience",
+      "items": [
+        {
+          "date": "Sep 2021 - Aug 2022",
+          "position": "Alphabetic Trees Revisited",
+          "company": "MPhil Thesis Research",
+          "description": "Constructed a dynamic binary search tree using a treap with Morris’ approximate counter and proved that it is almost optimal. "
+        },
+        {
+          "date": "Jul - Dec 2018",
+          "position": "To What Extent Can the Below-Cloud Washout Effect Influence the PM2.5?",
+          "description": "Developed a new below-cloud washout scheme with Python, using 7-year PM2.5 and meteorological data (in minutes), which improved the PM2.5 simulation accuracy by 41%.",
+          "link": "https://doi.org/10.1016/j.envpol.2019.04.061"
+        }
+      ]
+    }
+  ]
+}

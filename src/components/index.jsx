@@ -1,5 +1,6 @@
 export {default as Header} from './header/Header'
-export {default as Experience} from './experience/Experience'
+export {default as Experiences} from './experiences/Experiences.jsx'
 export {default as Background} from './background/Background'
 export {default as Education} from './education/Education'
+export {default as Skills} from './skills/Skills'
 export {default as Body} from './body/Body'

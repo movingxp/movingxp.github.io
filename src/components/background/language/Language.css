@@ -1,0 +1,5 @@
+.language--row {
+    margin-top: 0.5rem;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
